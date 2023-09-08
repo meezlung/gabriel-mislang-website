@@ -1,2 +1,2 @@
 # gabriel-mislang-website
-my simple website portfolio
+my simple personal website portfolio
