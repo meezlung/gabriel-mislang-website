@@ -8,12 +8,14 @@
 body {
     background-color: #080808;
     color: #fff;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 #main {
     width: 100%;
     height: 100vh;
-    background-image: url(images/background.png);
+    background-image: url(images/background-image.png);
     background-size: cover;
     background-position: center;
 }
@@ -69,61 +71,29 @@ nav ul li a {
     align-items: center;
     justify-content: space-between;
     padding: 13px;
-    width: 20vw;
-    height: 15vh;
-    border-radius: 0px 50px 50px 0px;
+    width: 18vw;
+    height: 12vh;
+    border-radius: 0px 100px 100px 0px;
     background-color: #fff;
-    color: #333;
+    color: #213546;
     position: absolute;
     top: 35%;
     transform: translate(0%, -50%);
 }
 
 #left-globe h1 {
-    margin-left: 25px;
-    font-size: 1.5vw;
+    margin-left: 40px;
+    font-size: 20px;
+    font-weight: 100;
 }
 
 #globe {
-    width: 6vw;
-    height: 6vw;
-    background-color: #080808;
+    width: 5vw;
+    height: 5vw;
+    background-color: #213546;
     border-radius: 50%;
     position: relative;
     animation: circle2 2.7s linear infinite;
-}
-
-#globe .circle{
-    position: absolute;
-    width: 95%;
-    height: 95%;
-    border-radius: 50%;
-    box-shadow: inset 0.1em 0px 0px 0.08em white;
-    font-size: .75em;
-}
-
-#globe .circle-hor {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 40%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    height: 40%;
-    box-shadow: inset 0px 0px 0px 0.15em white;
-    font-size: .75em;
-}
-
-#globe .circle-hor-middle {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 40%;
-    transform: translate(-50%, -50%);
-    border-radius: 0%;
-    height: 0.15em;
-    background: white;
-    font-size: .75em;
 }
 
 #job {
@@ -145,8 +115,10 @@ nav ul li a {
 
 #gabriel-mislang {
     width: 400%;
-    position: absolute;
+    position: relative;
     top: 50%;
+    overflow: hidden;
+    white-space: nowrap;
 }
 
 #gabriel-mislang h1 {
