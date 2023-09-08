@@ -56,3 +56,103 @@ nav ul li a {
     text-decoration: none;
     font-size: 18px;
 }
+
+#main-elements {
+    position: absolute;
+    top: 10%;
+    width: 100%;
+    height: 100vh;
+}
+
+#left-globe {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 13px;
+    width: 20vw;
+    height: 15vh;
+    border-radius: 0px 50px 50px 0px;
+    background-color: #fff;
+    color: #333;
+    position: absolute;
+    top: 35%;
+    transform: translate(0%, -50%);
+}
+
+#left-globe h1 {
+    margin-left: 25px;
+    font-size: 1.5vw;
+}
+
+#globe {
+    width: 6vw;
+    height: 6vw;
+    background-color: #080808;
+    border-radius: 50%;
+    position: relative;
+    animation: circle2 2.7s linear infinite;
+}
+
+#globe .circle{
+    position: absolute;
+    width: 95%;
+    height: 95%;
+    border-radius: 50%;
+    box-shadow: inset 0.1em 0px 0px 0.08em white;
+    font-size: .75em;
+}
+
+#globe .circle-hor {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    height: 40%;
+    box-shadow: inset 0px 0px 0px 0.15em white;
+    font-size: .75em;
+}
+
+#globe .circle-hor-middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+    border-radius: 0%;
+    height: 0.15em;
+    background: white;
+    font-size: .75em;
+}
+
+#freelance {
+    position: absolute;
+    top: 15%;
+    right: 10%;
+}
+
+#freelance iconify-icon {
+    display: inline-block;
+    font-size: 2vw;
+    margin-bottom: 70px;
+}
+
+#freelance h1 {
+    font-size: 2vw;
+    font-weight: 400;
+}
+
+#gabriel-mislang {
+    width: 400%;
+    position: absolute;
+    top: 50%;
+}
+
+#gabriel-mislang h1 {
+    display: inline-block;
+    font-size: 18vw;
+    font-weight: 400;
+    animation: 10s linear infinite;
+    animation-name: text;
+}
