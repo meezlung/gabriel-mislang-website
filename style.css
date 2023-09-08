@@ -126,19 +126,19 @@ nav ul li a {
     font-size: .75em;
 }
 
-#freelance {
+#job {
     position: absolute;
     top: 15%;
     right: 10%;
 }
 
-#freelance iconify-icon {
+#job iconify-icon {
     display: inline-block;
     font-size: 2vw;
     margin-bottom: 70px;
 }
 
-#freelance h1 {
+#job h1 {
     font-size: 2vw;
     font-weight: 400;
 }
