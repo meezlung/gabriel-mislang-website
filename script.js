@@ -4,7 +4,7 @@ gsap.to("#gabriel-mislang", {
         start: "0% 0%",
         end: "50% 50%",
         scrub: 3,
-        markers: true
+        // markers: true
     },
     x: 100,
     duration: 20,

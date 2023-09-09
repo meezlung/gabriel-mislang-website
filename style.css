@@ -106,13 +106,13 @@ nav ul li a {
 
 #job {
     position: absolute;
-    top: 15%;
-    right: 10%;
+    top: 20%;
+    right: 9%;
 }
 
 #job iconify-icon {
     display: inline-block;
-    font-size: 2vw;
+    font-size: 2.5vw;
     margin-bottom: 70px;
 }
 
@@ -124,14 +124,14 @@ nav ul li a {
 #gabriel-mislang {
     width: 400%;
     position: relative;
-    top: 50%;
+    top: 55%;
     overflow: hidden;
     white-space: nowrap;
 }
 
 #gabriel-mislang h1 {
     display: inline-block;
-    font-size: 18vw;
+    font-size: 14vw;
     font-weight: 400;
     animation: 10s linear infinite;
     animation-name: move-to-the-left;
