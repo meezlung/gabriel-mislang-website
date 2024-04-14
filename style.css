@@ -2,6 +2,7 @@
     margin: 0px; 
     padding: 0px;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+
     box-sizing: border-box;
 }
 
@@ -107,18 +108,29 @@ nav ul li a {
 #job {
     position: absolute;
     top: 20%;
-    right: 9%;
+    right: 5%;
+    
 }
 
-#job iconify-icon {
+iconify-icon {
     display: inline-block;
     font-size: 2.5vw;
-    margin-bottom: 70px;
+    margin-bottom: 4.5vw;
+    margin-left: 9.6vw;
 }
 
-#job h1 {
-    font-size: 2vw;
-    font-weight: 400;
+#student-wants {
+    /* font-family: "Source Code Pro", monospace; */
+    font-size: 1.8vw;
+    font-weight: lighter;
+    margin-left: 10.3vw;
+}
+
+#software-engineer {
+    /* font-family: "Source Code Pro", monospace; */
+    font-size: 2.2vw;
+    font-weight: bold;
+    margin-left: 10.2vw;
 }
 
 #gabriel-mislang {
@@ -131,9 +143,10 @@ nav ul li a {
 
 #gabriel-mislang h1 {
     display: inline-block;
-    font-size: 14vw;
+    font-family: "Poppins", sans-serif;
+    font-size: 12.5vw;
     font-weight: 400;
-    animation: 10s linear infinite;
+    animation: 12s linear infinite;
     animation-name: move-to-the-left;
 }
 
